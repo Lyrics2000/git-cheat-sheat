@@ -18,3 +18,15 @@ $ git remote -v
 
 $ git push origin master
 # Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+
+
+##From github
+echo "# Zuhaus-Real-estate-Template" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Lyrics2000/Zuhaus-Real-estate-Template.git
+git push -u origin master
+                
