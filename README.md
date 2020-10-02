@@ -13,6 +13,7 @@ $ git commit -m "First commit"
 
 $ git remote add origin remote repository URL
 # Sets the new remote
+$git remote set-url origin https://github.com/Lyrics2000/boilerplate.git
 $ git remote -v
 # Verifies the new remote URL
 
